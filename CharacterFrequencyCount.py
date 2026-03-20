@@ -19,6 +19,7 @@ def char_frequency_get(s):
 print(char_frequency_get(str))
 
 #Using collections.Counter
+from collections import Counter
 def char_frequency_counter(s): 
     return dict(Counter(s)) 
 frequency_counter = char_frequency_counter(str)
